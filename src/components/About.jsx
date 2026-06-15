@@ -21,7 +21,7 @@ const About = () => {
         />
 
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          <ScrollAnimate animation="fade-right" className="relative">
+          <ScrollAnimate animation="fade-right" className="relative overflow-hidden">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl">
               <img
                 src={aboutImage}

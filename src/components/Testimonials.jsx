@@ -117,7 +117,7 @@ const Testimonials = () => {
   const slidePercent = 100 / itemsPerView;
 
   return (
-    <section id="testimonials" className="bg-gray-50 py-20 sm:py-28">
+    <section id="testimonials" className="overflow-x-hidden bg-gray-50 py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           label="Testimonials"
@@ -130,7 +130,7 @@ const Testimonials = () => {
           <button
             type="button"
             onClick={goToPrev}
-            className="absolute top-1/2 -left-3 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-700 shadow-md transition-all hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-600 sm:-left-[50px] sm:h-12 sm:w-12"
+            className="absolute top-1/2 left-1 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-700 shadow-md transition-all hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-600 sm:left-2 sm:h-12 sm:w-12 lg:-left-12"
             aria-label="Previous testimonial"
           >
             <HiChevronLeft className="h-6 w-6" />
@@ -139,7 +139,7 @@ const Testimonials = () => {
           <button
             type="button"
             onClick={goToNext}
-            className="absolute top-1/2 -right-3 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-700 shadow-md transition-all hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-600 sm:-right-[50px] sm:h-12 sm:w-12"
+            className="absolute top-1/2 right-1 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-700 shadow-md transition-all hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-600 sm:right-2 sm:h-12 sm:w-12 lg:-right-12"
             aria-label="Next testimonial"
           >
             <HiChevronRight className="h-6 w-6" />

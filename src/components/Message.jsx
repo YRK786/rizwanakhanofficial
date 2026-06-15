@@ -42,8 +42,12 @@ const Message = () => {
                 <p className="text-lg font-bold tracking-wide text-gray-900 sm:text-xl">
                   Rizwana Khan
                 </p>
-                <p className="mt-1 text-sm font-medium text-emerald-600 sm:text-base">
-                  Social Worker &nbsp;&bull;&nbsp; Community Advocate &nbsp;&bull;&nbsp; Businesswoman
+                <p className="mt-1 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm font-medium text-emerald-600 sm:text-base">
+                  <span>Social Worker</span>
+                  <span className="text-emerald-400" aria-hidden="true">&bull;</span>
+                  <span>Community Advocate</span>
+                  <span className="text-emerald-400" aria-hidden="true">&bull;</span>
+                  <span>Businesswoman</span>
                 </p>
                 <p className="mt-3 text-xs font-semibold uppercase tracking-[0.25em] text-amber-600">
                   Mumbai, India

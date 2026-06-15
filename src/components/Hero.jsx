@@ -50,8 +50,12 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="mb-6 text-lg font-medium text-emerald-100 sm:text-xl">
-            Social Worker &nbsp;|&nbsp; Community Advocate &nbsp;|&nbsp; Businesswoman
+          <p className="mb-6 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-lg font-medium text-emerald-100 sm:text-xl lg:justify-start">
+            <span>Social Worker</span>
+            <span className="text-emerald-400/70" aria-hidden="true">|</span>
+            <span>Community Advocate</span>
+            <span className="text-emerald-400/70" aria-hidden="true">|</span>
+            <span>Businesswoman</span>
           </p>
 
           <div className="mb-8 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm lg:max-w-xl">
@@ -103,7 +107,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative mx-auto w-full max-w-md lg:max-w-none"
+          className="relative mx-auto w-full max-w-md overflow-hidden lg:max-w-none"
         >
           <div className="relative mx-auto aspect-[4/5] max-w-sm lg:max-w-md">
             {/* Decorative rings */}

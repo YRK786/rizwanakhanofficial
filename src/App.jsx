@@ -22,7 +22,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="scroll-smooth antialiased">
+    <div className="overflow-x-hidden scroll-smooth antialiased">
       <Navbar />
       <main>
         <Hero />

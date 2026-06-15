@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 @layer base {
+  html,
+  body {
+    @apply overflow-x-hidden;
+  }
+
   button,
   a {
     @apply cursor-pointer;
