@@ -107,9 +107,10 @@ const Hero = () => {
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative mx-auto w-full max-w-md overflow-hidden lg:max-w-none"
+          className="relative mx-auto w-full max-w-md lg:max-w-none"
         >
-          <div className="relative mx-auto aspect-[4/5] max-w-sm lg:max-w-md">
+          <div className="relative mx-auto max-w-sm px-6 pt-6 pb-10 lg:max-w-md">
+          <div className="relative aspect-[4/5]">
             {/* Decorative rings */}
             <div className="absolute -inset-3 rounded-[2rem] border border-amber-400/30" />
             <div className="absolute -inset-6 rounded-[2.5rem] border border-emerald-400/20" />
@@ -125,7 +126,7 @@ const Hero = () => {
               <img
                 src={aboutImage}
                 alt="Rizwana Khan - Social Worker and Community Advocate"
-                className="h-full w-full object-cover object-top"
+                className="h-full w-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/60 via-transparent to-transparent" />
             </div>
@@ -141,6 +142,7 @@ const Hero = () => {
                 Mumbai, India
               </p>
             </motion.div>
+          </div>
           </div>
 
           {/* Stats — mobile only */}
